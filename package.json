@@ -1,0 +1,21 @@
+{
+  "name": "node-red-nodes-joystick",
+  "version": "0.0.3",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-hid": "~0.3.2"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "node-red" : {
+    "nodes": {
+      "joystick": "99-joystick.js"
+    }
+  },
+  "author": "Benjamin Hardill <hardillb@gmail.com> (http://www.hardill.me.uk/wordpress)",
+  "license": "Apache"
+}
