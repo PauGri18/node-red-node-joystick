@@ -26,7 +26,7 @@
         var node = this;
         var old = 0;
 
-        this.stick = new JoyStick("DragonRise Inc.  ");  /** <---------------- **>
+        this.stick = new JoyStick("DragonRise Inc.  ");  /** <---------------- **/
 
         if (this.filter !== 0) {
             this.stick.on('raw', function(raw) {
